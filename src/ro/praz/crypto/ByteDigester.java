@@ -16,9 +16,5 @@ public class ByteDigester {
     public String getHex(){
         return DatatypeConverter.printHexBinary(messageDigest.digest()).toUpperCase();
     }
-//    public static String getMD5(byte[] data) throws NoSuchAlgorithmException {
-//        MessageDigest messageDigest = MessageDigest.getInstance("MD5");
-//        messageDigest.update(data);
-//        return DatatypeConverter.printHexBinary(messageDigest.digest()).toUpperCase();
-//    }
+
 }
